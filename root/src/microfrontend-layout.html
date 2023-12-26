@@ -1,0 +1,34 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+  <nav>
+    <application name="@tavoweb/navbar"></application>
+  </nav>
+
+  <main>
+    <route default>
+      <h1>OK</h1>
+    </route>
+    <route path="roles">
+      <application name="@tavoweb/roles"></application>
+    </route>
+
+    <!-- <application name="@single-spa/welcome"></application> -->
+    <!-- <application name="@tavoweb/roles"></application> -->
+    <!-- <route>
+      <h1>404</h1>
+    </route> -->
+  </main>
+</single-spa-router>
