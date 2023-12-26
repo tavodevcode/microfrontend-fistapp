@@ -1,0 +1,19 @@
+{
+  "extends": ["ts-react-important-stuff", "plugin:prettier/recommended"],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "printWidth": 120,
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "endOfLine": "auto",
+        "trailingComma": "none"
+      }
+    ]
+  }
+}
