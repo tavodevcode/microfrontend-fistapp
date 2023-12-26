@@ -4,3 +4,6 @@
 [submodule "roles"]
 	path = roles
 	url = ./roles
+[submodule "navbar"]
+	path = navbar
+	url = ./navbar
