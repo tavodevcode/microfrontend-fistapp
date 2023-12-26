@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import { ChevronRight, TableProperties } from 'lucide-react'
 
 import { Title } from '@/components/ui/title'
+import { EditRoleForm } from '@/components/roles/edit-role-form'
 
 export const EditRolesPage = () => {
   const params = useParams<{ id: string }>()
@@ -33,7 +34,7 @@ export const EditRolesPage = () => {
         <Title title="Editar rol" />
       </div>
 
-      {/* <NewRoleForm /> */}
+      <EditRoleForm />
     </section>
   )
 }
